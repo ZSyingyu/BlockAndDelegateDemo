@@ -5,8 +5,6 @@
 
 很多时候,开发的小伙伴需要反向传值,但是又不知道该怎么传,其实很简单,下面我简单介绍一下分别用block和delegate进行反向传值,希望能够帮到你们.
 
-先附上github地址:https://github.com/ZSyingyu/BlockAndDelegateDemo.git
-
 这些是在ZYYBankNameViewController里需要做的
 1.利用block反向传值
 要利用block反向传值,首先要声明一个block
