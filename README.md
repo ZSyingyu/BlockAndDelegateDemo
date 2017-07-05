@@ -18,10 +18,10 @@
 那么接下来我们就需要在.m中实现这个方法
 
     -(instancetype)initWithBankNameBlock:(bankNameBlock)block {
-        if (self == [super init]) {
-            _block = block;
-        }
-        return self;
+          if (self == [super init]) {
+              _block = block;
+          }
+          return self;
     }
 
     //block反向传值
